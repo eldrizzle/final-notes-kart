@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel="icon" href="images/logo.svg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styleandroid.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Notes-Cart</title>
+    <style>
+        #photo{
+    background-image: url("/images/nikhil1.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat; 
+    border-radius: 8px; 
+    height: 80px;
+          
+    
+    z-index: +1;
+    /* border: 2px dotted yellow; */
+            
+}
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-areas: 
+            'footer footer footer footer'
+            
+            'section aside aside aside';
+            
+        }
+        .item{
+           
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #navbar{
+           grid-area: navbar;
+        }
+        #section{
+           grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            margin-top: 10px;
+            grid-area: footer;
+            font-size: 20px;
+            background-color: aquamarine;
+
+        }
+        
+        .logoname{
+            position: relative;
+            top: -40px;
+        }
+
+        .page{
+            position: relative;
+            top: -15px;
+        }
+
+        #androidheading{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(120, 107, 185));
+
+            margin-bottom: 40px;
+        }
+
+    </style>
+    
+    
+    
+  </head>
+  <body>
+    <div id="photo">
+    
+      
+     <!-- <section id="navigation_bar"> -->
+
+        <div id="navbar" class="nav">
+           <div class="navbaritem_1 navbaritem">
+
+            <!-- <span class="logo"><img src="images/logo.png" alt="image"></span> -->
+            <h1 class="logoname">Notes Kart</h1>
+
+           </div>
+
+           <div class="navbaritem_2  navbaritem">
+                 
+                <ul class="page">
+
+                  <li class="navbarelements"><h3><a  href="index.html">Home</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="notes.html">Notes</a></h3>
+
+                    
+                  
+                  
+                  
+                  
+                  </li>
+                  <li class="navbarelements"><h3><a  href="pyq.html">PYQ</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="courses.html">Courses</a></h3></li>
+                </ul>
+           </div>
+
+           <!-- <div class="navbaritem_3 navbaritem">
+                <img src="" alt="image">
+                <span class="username">Unknown</span>
+
+           </div> -->
+
+
+
+        </div>
+    </div>
+
+       
+        <!-- <div class="container">
+            <div class="item" id="footer">
+                Android Development 
+            </div>
+            <div class="item" id="section">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+    
+            
+        </div> -->
+
+        <main>
+            <section id="courses">
+           
+            
+             <div class="androidpara">
+                 <h2 id="androidheading">Cyber Security</h2>
+                <h2  > Cyber Security Fundamentals for Beginners</h2>
+                <p class="androidtheory">
+                    Cyber System Security as the name suggests, it protects our system from cyber attacks, malicious attacks. It is basically to advance our security of the system so that we can prevent unauthorized access of our system from attacker. 
+                    
+                    <br>
+                    <br>
+
+                
+
+                    In today's world the attacker become more advanced to crack the security of any system so it is our responsibility to make our security advance because attacker can misuse the data against us which will create a problem for us. 
+
+                    <br>
+                    <br>
+
+
+                    For example we can take example of cyber attack in India when our more than 200 websites were hacked by a group of Bangladesh including Border Security Force website (BSF). 
+                    <br>
+                    <br>
+
+
+                    Another example is attack on hydro power plant in New York, attack on power grid in Iran. These attacks were very big which threatened the whole world and also these attacks were big threatened to country security. 
+
+                    <br>
+                    <br>
+
+
+                    The security of computer security depends on three goals that are Confidentiality, Integrity, Authenticity. These Goals are basically threatened by attacker. There are various software to protect our information that are anti-spyware, antivirus, Firewall which helps in authorized access of information. There are other security system such as Intrusion Detection System, Cryptography, Digital Signature which will help us in protecting our system from attack. 
+                    
+            </p>
+
+            <div class="android-roadmap  website-roadmap">
+             
+             <img src="images/cyber.jpeg" alt="">
+             
+            
+             
+
+            </div>
+
+            
+               
+            
+<p class="androidtheory android-video-title"> Top rated courses for Cyber Security</p>
+            <div class="androidiframe">
+
+                
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/nzZkKoREEGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/U_P23SqJaDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+
+           </div>
+       </div>
+           
+           
+     
+            </section>
+
+            
+
+
+              
+            
+     
+     
+         </main>
+
+    
+
+  </body>
+</html>

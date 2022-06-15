@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel="icon" href="images/logo.svg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styleandroid.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Notes-Cart</title>
+    <style>
+        #photo{
+    background-image: url("/images/nikhil1.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat; 
+    border-radius: 8px; 
+    height: 80px;
+          
+    
+    z-index: +1;
+    /* border: 2px dotted yellow; */
+            
+}
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-areas: 
+            'footer footer footer footer'
+            
+            'section aside aside aside';
+            
+        }
+        .item{
+           
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #navbar{
+           grid-area: navbar;
+        }
+        #section{
+           grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            margin-top: 10px;
+            grid-area: footer;
+            font-size: 20px;
+            background-color: aquamarine;
+
+        }
+        
+        .logoname{
+            position: relative;
+            top: -40px;
+        }
+
+        .page{
+            position: relative;
+            top: -15px;
+        }
+
+        #androidheading{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(120, 107, 185));
+
+            margin-bottom: 40px;
+        }
+
+    </style>
+    
+    
+    
+  </head>
+  <body>
+    <div id="photo">
+    
+      
+     <!-- <section id="navigation_bar"> -->
+
+        <div id="navbar" class="nav">
+           <div class="navbaritem_1 navbaritem">
+
+            <!-- <span class="logo"><img src="images/logo.png" alt="image"></span> -->
+            <h1 class="logoname">Notes Kart</h1>
+
+           </div>
+
+           <div class="navbaritem_2  navbaritem">
+                 
+                <ul class="page">
+
+                  <li class="navbarelements"><h3><a  href="index.html">Home</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="notes.html">Notes</a></h3>
+
+                    
+                  
+                  
+                  
+                  
+                  </li>
+                  <li class="navbarelements"><h3><a  href="pyq.html">PYQ</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="courses.html">Courses</a></h3></li>
+                </ul>
+           </div>
+
+           <!-- <div class="navbaritem_3 navbaritem">
+                <img src="" alt="image">
+                <span class="username">Unknown</span>
+
+           </div> -->
+
+
+
+        </div>
+    </div>
+
+       
+        <!-- <div class="container">
+            <div class="item" id="footer">
+                Android Development 
+            </div>
+            <div class="item" id="section">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+    
+            
+        </div> -->
+
+        <main>
+            <section id="courses">
+           
+            
+             <div class="androidpara">
+                 <h2 id="androidheading">Website Development</h2>
+                <h2  > Web Development Fundamentals for Beginners</h2>
+                <p class="androidtheory">
+                    Web Development: Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+                    Web Development can be classified into two ways:
+                    <br>
+                    <br>
+                    
+                    Frontend Development: The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+                    <br>
+                    <br>
+                    
+                    Backend Development: Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+            </p>
+
+            <div class="android-roadmap  website-roadmap">
+             
+             <img src="images/front-end.jpeg" alt="">
+             
+            
+             
+
+            </div>
+
+            
+            <div class="android-roadmap  website-roadmap">
+             
+                
+                
+                
+                <img src="images/backend.jpeg" alt="">
+   
+               </div>
+               
+            
+<p class="androidtheory android-video-title"> Top rated courses for Web Development</p>
+            <div class="androidiframe">
+
+                
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/Q33KBiDriJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+
+           </div>
+       </div>
+           
+           
+     
+            </section>
+
+            
+
+
+              
+            
+     
+     
+         </main>
+
+    
+
+  </body>
+</html>

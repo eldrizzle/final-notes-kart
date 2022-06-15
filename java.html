@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel="icon" href="images/logo.svg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styleandroid.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Notes-Cart</title>
+    <style>
+        #photo{
+    background-image: url("/images/nikhil1.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat; 
+    border-radius: 8px; 
+    height: 80px;
+          
+    
+    z-index: +1;
+    /* border: 2px dotted yellow; */
+            
+}
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-areas: 
+            'footer footer footer footer'
+            
+            'section aside aside aside';
+            
+        }
+        .item{
+           
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #navbar{
+           grid-area: navbar;
+        }
+        #section{
+           grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            margin-top: 10px;
+            grid-area: footer;
+            font-size: 20px;
+            background-color: aquamarine;
+
+        }
+        
+        .logoname{
+            position: relative;
+            top: -40px;
+        }
+
+        .page{
+            position: relative;
+            top: -15px;
+        }
+
+        #androidheading{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(120, 107, 185));
+
+            margin-bottom: 40px;
+        }
+
+    </style>
+    
+    
+    
+  </head>
+  <body>
+    <div id="photo">
+    
+      
+     <!-- <section id="navigation_bar"> -->
+
+        <div id="navbar" class="nav">
+           <div class="navbaritem_1 navbaritem">
+
+            <!-- <span class="logo"><img src="images/logo.png" alt="image"></span> -->
+            <h1 class="logoname">Notes Kart</h1>
+
+           </div>
+
+           <div class="navbaritem_2  navbaritem">
+                 
+                <ul class="page">
+
+                  <li class="navbarelements"><h3><a  href="index.html">Home</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="notes.html">Notes</a></h3>
+
+                    
+                  
+                  
+                  
+                  
+                  </li>
+                  <li class="navbarelements"><h3><a  href="pyq.html">PYQ</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="courses.html">Courses</a></h3></li>
+                </ul>
+           </div>
+
+           <!-- <div class="navbaritem_3 navbaritem">
+                <img src="" alt="image">
+                <span class="username">Unknown</span>
+
+           </div> -->
+
+
+
+        </div>
+    </div>
+
+       
+        <!-- <div class="container">
+            <div class="item" id="footer">
+                Android Development 
+            </div>
+            <div class="item" id="section">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+    
+            
+        </div> -->
+
+        <main>
+            <section id="courses">
+           
+            
+             <div class="androidpara">
+                 <h2 id="androidheading">Java Language</h2>
+                <h2  > Java Language Fundamentals for Beginners</h2>
+                <p class="androidtheory">
+                    <br> <br>
+                    Learn Java on Your Own in 20 Days – Free!
+
+                    <br> <br>
+
+Last Updated : 23 May, 2022
+Indeed, JAVA is one of the most demanding programming languages in the IT world. Statistically, there are around 7-8 million JAVA Developers across the world and the number is growing rapidly. Needless to say, JAVA has a lot of career opportunities in the tech market and the language will undoubtedly remain in demand in the upcoming times as well. Moreover, all the aspiring developers who want to make it big in the programming world can take JAVA into consideration. Additionally, you can learn this particular language efficiently by following a relevant pathway and with genuine hard work & dedication. 
+
+Learn-Java-on-Your-Own-in-20-Days-Free-of-Cost-With-GeeksforGeeks
+<br> <br>
+
+Before moving further, let’s take a look at the origin of the language. JAVA was developed by James Gosling at Sun Microsystems in 1995 and the language runs on different platforms such as Windows, Mac, Linux, etc. The language is majorly used for building enterprise-scale web applications and Android apps. Also, the salaries of JAVA developers are comparatively higher in comparison to various other languages. Here in this article, we will let you know about the structured roadmap or curriculum that you need to follow to learn JAVA in a mere 20 days! 
+<br> <br>
+<br> <br>
+
+1. Start with the Fundamentals (Day: 1)
+Whether it be JAVA or any other programming language, you’re always required to understand the nature and basics of the language before proceeding to the core concepts. You can start with the introduction of the language, its features, applications, etc. Meanwhile, you also need to know how to set up the JAVA environment in a system and can consider to create, compile, and execute your first Java Program as well. It will help you to get familiar with the basic syntax of the language and other aspects. You can explore several Integrated Development Environments (IDEs) as well such as Eclipse, Netbeans, etc.  
+
+Introduction to Java & Its Features
+Java Virtual Machine (JVM)
+Setting Up the JAVA Environment
+Hello World Program in JAVA
+Integrated Development Environments (IDEs) for JAVA
+
+<br> <br>
+<br> <br>
+
+2. Learn DataTypes, Variables & Conditional Statements (Day: 2-3)
+Once you’ll get done with the basics, now you need to learn several other crucial concepts that can be considered as prerequisites before working on any language. You need to know how to declare variables in JAVA, how to implement conditional statements, modifiers & operators in JAVA, etc. You are also recommended to learn about the implementation of loop statements in JAVA. Moreover, you can practice several basic programs based on the relevance to particular topics for a better understanding of the concepts.  
+
+Data Types | Variables
+Conditional Statements
+Loops in JAVA
+Modifiers | Operators
+Programs: Swapping of numbers, Factorial, Fibonacci Series, etc.
+<br> <br>
+<br> <br>
+
+3. Understand Arrays & String Manipulation in JAVA (Day: 4-5)
+Okay, now take a step forward and start to learn the concepts like Array, Strings, etc in JAVA. You’re required to understand how to create an Array & access its elements, Strings in JAVA, and other related concepts. Meanwhile, the working of Arrays in JAVA is different in comparison to C/C++ as in Java all arrays are dynamically allocated and various other features as well. Also, you can explore here some additional tips such as Type conversions, Scope of Variables, etc. to get your concepts more clear.  
+
+Arrays | Strings
+Array vs ArrayList in Java
+Scope of Variables
+Type Conversion in Java
+Switch Statement in Java 
+<br> <br>
+<br> <br>
+
+4. Get Familiar with Classes, Objects & Methods (Day: 6-8)
+After going through the above-mentioned topics, you will have a decent base that is required to learn any programming language. Now, you’re required to understand the basic building blocks of JAVA i.e, Classes & Objects. You’re required to understand what are the Classes in JAVA, how to create an Object, etc thoroughly. Moreover, you need to learn about the Methods in JAVA, what are their significance, and how to create & use them. You also need to learn about Constructors which is a crucial part of JAVA programming. 
+
+Classes & Objects
+Methods in Java
+Method Overloading | Method Overriding
+Parameter Passing in JAVA
+Constructors in Java
+<br> <br>
+<br> <br>
+
+5. Gear Up to the OOPs concepts (Day: 9-10)
+Now, it’s time to get into the core of JAVA programming – Object-Oriented Programming (OOPs) Concepts. JAVA is an Object-Oriented Programming Language that works on various principles such as Polymorphism, Inheritance, Encapsulation, and Abstraction. You need to command these paradigms to learn the language more efficiently. Moreover, you will be able to understand the topics like overloading, overriding, etc. more credibly, once you’ll get done with the understanding of OOPs concepts. 
+
+Inheritance | Encapsulation
+Polymorphism | Runtime Polymorphism
+Abstraction
+Super Keyword | This Keyword | Final Keyword
+Association, Composition, and Aggregation 
+<br> <br>
+<br> <br>
+
+6. Learn about Interfaces & Packages in JAVA (Day: 11-13)
+After going through the OOPs concepts, now you need to dive deeper into the JAVA programming world. You are required to cover topics like Interfaces, Packages, Abstract Class, etc. Precisely, an interface can also have methods and variables, but the methods declared in an interface are by default abstract. On the other hand, Packages in Java is a process to encapsulate a group of classes, sub-packages, and interfaces. Here you can cover several other topics also such as the difference between Abstract Class and Interface in Java, Nested Interface, etc. 
+
+Interfaces | Packages
+Nested Interface | Marker Interface
+Abstract Classes
+Difference between Abstract Class & Interface
+Java.Time, Java.Lang, Java.Math and other packages
+<br> <br>
+<br> <br>
+
+7. Go Through Exception Handling, I/O Streams & Multithreading Concepts (Day: 14-16)
+Now, it’s time to understand concepts like how to deal with exceptions and warnings in JAVA – Exception Handling, concurrent execution of two or more parts of a program – Multithreading, input and output streams in Java – I/O Streams, etc. Also, you need to learn about Regular Expressions (Regex) in Java for defining String patterns that can be used for searching, manipulating, and editing text. These concepts are very crucial for understanding the deep functioning of JAVA and also play a vital role in program or project development.  
+
+Exception Handling
+Types of Exceptions
+Multithreading in JAVA
+Regular Expression in JAVA
+File Handling in JAVA
+<br> <br>
+<br> <br>
+
+8. Understand Collection Framework, AWT & SWING (Day: 17-20)
+Okay, now you’re required to emphasize on implementation aspects also of all the concepts and theoretical knowledge you’ve covered in the above stages. You need to know about the Collection Framework that defines several classes and interfaces to represent a group of objects as a single unit. Meanwhile, you’re also required to get familiar with Abstract Window Toolkit (AWT) and Swing in JAVA to work on several minor and major projects with Graphical User Interface (GUI).  
+
+Collections in Java
+Generics in Java
+Java Swing | Simple Calculator
+Java AWT
+JAVA Projects
+<br> <br>
+                    <br> <br>
+
+So this is a thorough roadmap that you need to follow to get into the JAVA programming world. Meanwhile, as per the above-mentioned stages, there are nearly 40 topics all over i.e., you just need to cover 2 topics per day (not so tough!) to cover the whole curriculum in just 20 days!! Now, what are you waiting for? Start learning JAVA now and put all your hard work and dedication to get command over it.
+            </p>
+
+          
+
+            
+            <div class="android-roadmap  website-roadmap">
+             
+                
+                
+                
+               
+               
+            
+<p class="androidtheory android-video-title"> Top rated courses for Java Language</p>
+            <div class="androidiframe">
+
+                
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/hBh_CC5y8-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="420" height="300" src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+
+           </div>
+       </div>
+           
+           
+     
+            </section>
+
+            
+
+
+              
+            
+     
+     
+         </main>
+
+    
+
+  </body>
+</html>

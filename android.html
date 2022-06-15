@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+     <link rel="icon" href="images/logo.svg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styleandroid.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Notes-Cart</title>
+    <style>
+        #photo{
+    background-image: url("/images/nikhil1.jpeg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat; 
+    border-radius: 8px; 
+    height: 80px;
+          
+    
+    z-index: +1;
+    /* border: 2px dotted yellow; */
+            
+}
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-areas: 
+            'footer footer footer footer'
+            
+            'section aside aside aside';
+            
+        }
+        .item{
+           
+            border: 2px solid red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        #navbar{
+           grid-area: navbar;
+        }
+        #section{
+           grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            margin-top: 10px;
+            grid-area: footer;
+            font-size: 20px;
+            background-color: aquamarine;
+
+        }
+        
+        .logoname{
+            position: relative;
+            top: -40px;
+        }
+
+        .page{
+            position: relative;
+            top: -15px;
+        }
+
+        #androidheading{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(120, 107, 185));
+
+            margin-bottom: 40px;
+        }
+
+    </style>
+    
+    
+    
+  </head>
+  <body>
+    <div id="photo">
+    
+      
+     <!-- <section id="navigation_bar"> -->
+
+        <div id="navbar" class="nav">
+           <div class="navbaritem_1 navbaritem">
+
+            <!-- <span class="logo"><img src="images/logo.png" alt="image"></span> -->
+            <h1 class="logoname">Notes Kart</h1>
+
+           </div>
+
+           <div class="navbaritem_2  navbaritem">
+                 
+                <ul class="page">
+
+                  <li class="navbarelements"><h3><a  href="index.html">Home</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="notes.html">Notes</a></h3>
+
+                    
+                  
+                  
+                  
+                  
+                  </li>
+                  <li class="navbarelements"><h3><a  href="pyq.html">PYQ</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="courses.html">Courses</a></h3></li>
+                </ul>
+           </div>
+
+           <!-- <div class="navbaritem_3 navbaritem">
+                <img src="" alt="image">
+                <span class="username">Unknown</span>
+
+           </div> -->
+
+
+
+        </div>
+    </div>
+
+       
+        <!-- <div class="container">
+            <div class="item" id="footer">
+                Android Development 
+            </div>
+            <div class="item" id="section">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="aside" class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+    
+            
+        </div> -->
+
+        <main>
+            <section id="courses">
+           
+            
+             <div class="androidpara">
+                 <h2 id="androidheading">Andorid Development</h2>
+                <h2  >Android App Development Fundamentals for Beginners</h2>
+                <p class="androidtheory">
+                   Android is an operating system that is built basically for Mobile phones. It is based on the Linux Kernel and other open-source software and is developed by Google. It is used for touchscreen mobile devices such as smartphones and tablets. But nowadays these are used in Android Auto cars, TV, watches, camera, etc. It has been one of the best-selling OS for smartphones. Android OS was developed by Android Inc. which Google bought in 2005. Various applications (apps) like games, music player, camera, etc. are built for these smartphones for running on Android. Google Play store features more than 3.3 million apps. The app is developed on an application known as Android Studio. These executable apps are installed through a bundle or package called APK(Android Package Kit).
+            </p>
+
+            <div class="android-roadmap">
+
+             <img src="images/roadtoandroid.png" alt="">
+            </div>
+            
+<p class="androidtheory android-video-title"> Top rated courses for Android Development</p>
+            <div class="androidiframe">
+
+                
+            
+            <iframe  width="420" height="300" src="https://www.youtube.com/embed/videoseries?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe  width="420" height="300" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe  width="420" height="300" src="https://www.youtube.com/embed/aS__9RbCyHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+           </div>
+       </div>
+
+           
+           
+     
+            </section>
+
+            
+
+
+              
+            
+     
+     
+         </main>
+
+    
+
+  </body>
+</html>

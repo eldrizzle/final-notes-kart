@@ -1,0 +1,10 @@
+.semtitle{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(88, 130, 186));
+}
+
+.sem{
+    border: 2px solid purple;
+    border-radius: 6px;
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,178 @@
+body{
+    margin: 0px 0px;
+}
+header{
+    position: sticky;
+    background-color: aquamarine;
+    
+    height: 200px;
+    text-align: center;
+    margin:  auto;
+    
+    
+}
+.fixed{
+  
+}
+
+h2 ,p{
+    color: white;
+}
+
+header h1{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    position: relative;
+    top: 60px;
+    
+
+}
+
+
+
+nav a{
+    text-decoration: none;
+    margin: 14px 10px;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    position: fi;
+
+}
+
+nav a button{
+    float: right;
+    margin: 5px;
+
+}
+
+nav .page{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 5px;
+}
+
+#courses h2{
+    text-align: center;
+    position: relative;
+    top: 24.5px;
+    
+}
+
+#courses{
+    /* display: flex;
+    justify-content: center; */
+    height: 100%;
+}
+#courses video{
+    margin: 18px;
+
+}
+#coursesline2 video{
+    margin:18px;
+
+}
+
+.androidiframe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted silver;
+    border-radius: 10px;
+    margin: 4px 95px;
+    
+}
+
+.androidtheory{
+    margin: 100px 100px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+
+}
+
+iframe{
+    margin:4px 10px;
+}
+.android-roadmap{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.android-roadmap img{
+    height: 80%;
+    width: 87.5%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border: 2px dotted silver;
+}
+
+.website-roadmap img{
+    display: inline-block;
+
+}
+
+.android-video-title{
+    color:white;
+    font-size: 30px;
+    /* border: 2px dotted silver; */
+    border-radius: 7px;
+    text-align: center;
+    
+}
+
+#college h2{
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+#college iframe{
+    margin: 18px;
+}
+#notes a img{
+    margin: 18px
+}
+
+#notes h2{
+    text-align: center;
+}
+#founder h1{
+    text-align: center;
+}
+#founder img{
+    position: relative;
+    left: 300px;
+}
+
+.androidpara{
+    border: 5px solid purple;
+    margin-top:10px ;
+    border-radius: 15px;
+}
+
+{
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+
+
+}
+#footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    
+    
+}

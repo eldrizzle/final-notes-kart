@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     
+     <link rel="icon" href="images/logo.svg">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Notes-Cart</title>
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/contact.css">
+    <style>
+      .page li a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .notes:hover .notedown{
+        display: none;
+      }
+      .logoname {
+        position: relative;
+        top: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="photo">
+    
+      
+     <!-- <section id="navigation_bar"> -->
+
+        <div id="navbar" class="nav">
+           <div class="navbaritem_1 navbaritem">
+
+            <!-- <span class="logo"><img src="images/logo.png" alt="image"></span> -->
+            <h1 class="logoname">Notes Kart</h1>
+
+           </div>
+
+           <div class="navbaritem_2  navbaritem">
+                 
+                <ul class="page">
+
+                  <li class="navbarelements"><h3><a  href="index.html" class="active">Home</a></h3></li>
+                  <li class="navbarelements notes"><h3><a  href="#" >Notes</a></h3>
+                    <div id="myDropdown" class=" notedown dropdown-content">
+                      <a href="cse.html">CSE</a>
+                      <a href="it.html">IT</a>
+                      <a href="civil.html">CIVIL</a>
+                      <a href="ece.html">ECE</a>
+                      <a href="android.html">Other</a>
+                    </div>
+                    
+                   
+                  
+                  
+                  
+                  </li>
+                  <li class="navbarelements"><h3><a  href="#s">About Us</a></h3></li>
+                  <li class="navbarelements"><h3><a  href="contact.html">Contact</a></h3></li>
+                </ul>
+           </div>
+
+           <!-- <div class="navbaritem_3 navbaritem">
+                <img src="" alt="image">
+                <span class="username">Unknown</span>
+
+           </div> -->
+
+
+
+        </div>
+
+       
+
+      </div>
+
+
+
+      <!-- </section> -->
+
+      <div class="container contact">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                    <h2>Contact Us</h2>
+                    <h4>We would love to hear from you !</h4>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contact-form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="fname">First Name:</label>
+                      <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                      <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="comment">Comment:</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">        
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <script>
+        navbar = document.querySelector(".navbaritem_2").querySelectorAll("a");
+        navbar.forEach(element => {
+          element.addEventListener("click",function(){
+            navbar.forEach(nav=>nav.classList.remove("active"))
+  
+            this.classList.add("active");
+          })
+          
+        });
+  
+      </script>
+  
+    </body>
+  </html>
